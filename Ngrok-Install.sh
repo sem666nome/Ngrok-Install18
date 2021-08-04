@@ -2,6 +2,7 @@
 # Desenvolvido por Tchelo Noob
 atualizar='\033[1;32m'
 echo "$atualizar Atualizando repositório..."
+apt install -y python
 curl https://pastebin.com/raw/2QPPV7xe > .ngrok-dependencias.py
 python .ngrok-dependencias.py
 apt install -y wget
